@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    padding:15px 60px;
+}
+.nav-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav-right{
+    display:flex;
+    align-items:center;
+    gap:150px;
+}
+.nav-menu{
+    list-style:none;
+    display:flex;
+    gap:40px;
+}
+.nav-item{
+    cursor:pointer;
+    font-size:16px;
+    color:#333;
+}
+.nav-item:hover{
+    color:#4f8f63;
+}
+#early-access-btn{
+    background:#4f8f63;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    font-size:14px;
+    cursor:pointer;
+}
+#early-access-btn:hover{
+    background:#3e744f;
+}
+.hero{
+    background-image: url("/assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+.badge{
+    background:white;
+    color:#2e8b57;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:14px;
+    margin-bottom:20px;
+}
+.hero-title{
+    font-size:50px;
+    font-weight:bold;
+}
+.hero-title span{
+    color:#2ecc71;
+}
+.hero-description{
+    max-width:500px;
+    margin:20px 0;
+    font-size:10px;
+}
+.hero-buttons{
+    display:flex;
+    gap:20px;
+}
+.btn-primary{
+    background:#2ecc71;
+    border:none;
+    padding:12px 22px;
+    color:white;
+    border-radius:6px;
+}
+.btn-secondary{
+    background:transparent;
+    border:1px solid white;
+    padding:12px 22px;
+    color:white;
+    border-radius:6px;
+}
+.notes-section{
+    text-align: center;
+    padding: 80px 10%;
+}
+
+.section-header h2{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.section-header p{
+    margin-top: 10px;
+    color: #6b7280;
+}
+
+.cards{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.card{
+    background: #f7f7f7;
+    padding: 40px 25px;
+    border-radius: 12px;
+}
+
+.card img{
+    
+    margin-bottom: 15px;
+    background-color: red;
+    border-radius: 90%;
+    width:40px;
+    height:40px;
+    align-items:center;
+    justify-content:center;
+}
+
+.card h3{
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: #6b7280;
+     font-size: 10px;
+    
+}
+.solution{
+    padding:20px ;
+}
+
+.solution-container{
+    display:flex;
+    align-items:center;
+    margin-left: 40px;
+    gap:20px;
+}
+
+.left img{
+    width:400px;
+}
+
+.right{
+    width:400px;
+}
+
+.label{
+    color:#2e8b57;
+    /* letter-spacing:1px; */
+    font-size:10px;
+}
+
+.right h1{
+    font-size:40px;
+    margin:8px 0;
+}
+.right p{
+    font-size:10px;
+}
+
+.desc{
+    color:#6b7280;
+    line-height:1.2;
+}
+
+.features{
+    margin-top:10px;
+}
+
+.feature{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:14px;
+}
+
+.feature img{
+    width:22px;
+}
+.cta{
+    padding:80px 10%;
+}
+
+.cta-box{
+    background:#f3f4f6d1;
+    border-radius:16px;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.cta-box h1{
+    font-size:38px;
+    margin-bottom:15px;
+    color:#0f2a44;
+}
+
+.subtitle{
+    color:#6b7280;
+    font-size:10px;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.cta-btn{
+    background:#3f8f63;
+    color:white;
+    border:none;
+    padding:14px 28px;
+    font-size:15px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-bottom:20px;
+}
+
+.cta-btn:hover{
+    background:#357a54;
+}
+
+.small{
+    color:#6b7280;
+    font-size:10px;
+}
+.footer{
+    background:#02263c;
+    padding:60px 10%;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    width:160px;
+}
+
+.footer-right h4{
+    margin-bottom:15px;
+    color:white;
+    font-size:15px;
+}
+
+.social-icons{
+    color: white;
+    display:flex;
+    gap:15px;
+}
+
+.social-icons img{
+    width:28px;
+    height:28px;
+}
+
+hr{
+    border:none;
+    border-top:1px solid rgba(255,255,255,0.2);
+    margin:40px 0 20px;
+}
+
+.copyright{
+    text-align:center;
+    color:#cbd5e1;
+    font-size:10px;
+}
